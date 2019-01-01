@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/demo/favicon.png">
+    <link rel="stylesheet" href="assets/css/pace.css">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Scholar X</title>
+    <!-- CSS -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600|Roboto:400" rel="stylesheet" type="text/css">
+    <link href="assets/vendors/material-icons/material-icons.css" rel="stylesheet" type="text/css">
+    <link href="assets/vendors/mono-social-icons/monosocialiconsfont.css" rel="stylesheet" type="text/css">
+    <link href="assets/vendors/feather-icons/feather.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.7.0/css/perfect-scrollbar.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/switchery/0.8.2/switchery.min.css" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-daterangepicker/2.1.25/daterangepicker.min.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <!-- Head Libs -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script data-pace-options='{ "ajax": false, "selectors": [ "img" ]}' src="https://cdnjs.cloudflare.com/ajax/libs/pace/1.0.2/pace.min.js"></script>
+</head>
+
+<body class="header-dark sidebar-light sidebar-expand">
+    <div id="wrapper" class="wrapper">
+        <!-- HEADER & TOP NAVIGATION -->
+        <nav class="navbar">
+            <!-- Logo Area -->
+            <div class="navbar-header ">
+                <a href="index.html" class="navbar-brand bg-brand">
+                    <img class="logo-expand" alt="" src="assets/img/logo.png">
+                    <img class="logo-collapse" alt="" src="assets/img/logo.png">
+                   <!-- <p>Scholar X</p>  -->
+                </a>
+            </div>
+            <!-- /.navbar-header -->
+            <!-- Left Menu & Sidebar Toggle -->
+            <ul class="nav navbar-nav">
+                <li class="sidebar-toggle"><a href="javascript:void(0)" class="ripple"><i class="feather feather-menu list-icon fs-20"></i></a>
+                </li>
+            </ul>
+            <!-- /.navbar-left -->
+            
+            <div class="spacer"></div>
+            <!-- User Image with Dropdown -->
+            <ul class="nav navbar-nav">
+                <li class="dropdown"><a href="javascript:void(0);" class="dropdown-toggle ripple" data-toggle="dropdown"><span class="avatar thumb-xs2"><img src="assets/demo/users/user1.jpg" class="rounded-circle" alt=""> <i class="feather feather-chevron-down list-icon"></i></span></a>
+                    <div
+                    class="dropdown-menu dropdown-left dropdown-card dropdown-card-profile animated flipInY">
+                        <div class="card">
+                            <header class="card-header d-flex mb-0"><a href="javascript:void(0);" class="col-md-4 text-center"><i class="feather feather-user-plus align-middle"></i> </a><a href="javascript:void(0);" class="col-md-4 text-center"><i class="feather feather-settings align-middle"></i> </a>
+                                <a
+                                href="javascript:void(0);" class="col-md-4 text-center"><i class="feather feather-power align-middle"></i>
+                                    </a>
+                            </header>
+                            <ul class="list-unstyled card-body">
+                                <li><a href="page-profile.html"><span><span class="align-middle">Manage Accounts</span></span></a>
+                                </li>
+                                <li><a href="page-login.html"><span><span class="align-middle">Sign Out</span></span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+            </li>
+            </ul>
+        </nav>
+        <!-- /.navbar -->
+        <div class="content-wrapper">
+            <!-- SIDEBAR -->
+            <aside class="site-sidebar scrollbar-enabled" data-suppress-scroll-x="true">
+                <!-- Sidebar Menu -->
+                <nav class="sidebar-nav">
+                    <ul class="nav in side-menu">
+                        <li class="current-page menu-item-has-children">
+                            <a href="index.html"><i class="list-icon feather feather-command"></i> <span class="hide-menu">Overview</span></a>
+                        </li>
+                        <li class="menu-item-has-children active">
+                            <a href="users.html"><i class="list-icon feather feather-briefcase"></i> <span class="hide-menu">Users</span></a>
+                        
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="groups.html"><i class="list-icon feather feather-user"></i> <span class="hide-menu">Access Groups</span></a>
+                            <ul class="list-unstyled sub-menu">
+                                <li><a href="groups.html">Groups</a>
+                                </li>
+                                <li><a href="privileges.html">Privileges</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#"><i class="list-icon feather feather-feather"></i> <span class="hide-menu">Scholarships</span></a>
+                            <!-- <ul class="list-unstyled sub-menu">
+                            </ul> -->
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#"><i class="list-icon feather feather-layout"></i> <span class="hide-menu">Tips</span></a>
+                            <ul class="list-unstyled sub-menu">
+
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href=""><i class="list-icon feather feather-folder"></i> <span class="hide-menu">Media</span></a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="subscription.html"><i class="list-icon feather feather-clipboard"></i> <span class="hide-menu">Subscription</span></a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href=""><i class="list-icon feather feather-pie-chart"></i> <span class="hide-menu">Contacts</span></a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href=""><i class="list-icon feather feather-heart"></i> <span class="hide-menu">Spages</span></a>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="village.html"><i class="list-icon feather feather-layout"></i> <span class="hide-menu">Village</span></a>
+                            <ul class="list-unstyled sub-menu">
+                                <li><a href="village.html">Village</a>
+                                </li>
+                                <li><a href="village-admin.html">Village Admin</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="javascript:void(0);"><i class="list-icon feather feather-layout"></i> <span class="hide-menu">Pages</span></a>
+                            <ul class="list-unstyled sub-menu">
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children"><a href="javascript:void(0);"><i class="list-icon feather feather-layout"></i> <span class="hide-menu">Blog</span></a>
+                            <ul class="list-unstyled sub-menu">
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="javascript:void(0);"><i class="list-icon feather feather-heart"></i> <span class="hide-menu">Tools</span></a>
+                        </li>
+                    </ul>
+                    <!-- /.side-menu -->
+                </nav>
+                <!-- /.sidebar-nav -->
+                <div class="sidebar-module nav-contact-info mx-3 mt-4 mb-3">
+                    <div class="d-flex flex-column align-items-center">
+                        <h6 class="mb-2 fs-14">Need Help</h6><i class="feather feather-bell fs-24 color-color-scheme"></i>
+                    </div>
+                    <!-- /.d-flex -->
+                    <div class="contact-info-body bg-content-color-contrast text-center">
+                        <p class="lh-25 headings-font-family">+234 8037 824 56
+                            <br>hello@schorlax.com
+                            <br><a href="#">Visit FAQ</a>
+                        </p>
+                    </div>
+                    <!-- /.contact-info-body -->
+                </div>
+                <!-- /.nav-contact-info -->
+            </aside>
+            <!-- /.site-sidebar -->
+            <main class="main-wrapper clearfix">
+                <!-- Page Title Area -->
+                <div class="row page-title clearfix">
+                    <div class="page-title-left">
+                        <h6 class="page-title-heading mr-0 mr-r-5">Dashboard</h6>
+                        <!-- <p class="page-title-description mr-0 d-none d-md-inline-block">statistics, charts and events</p> -->
+                    </div>
+                    <!-- /.page-title-left -->
+                    <div class="page-title-right d-none d-sm-inline-flex">
+                        <ol class="breadcrumb">
+                            <li class="breadcrumb-item"><a href="index.html">Dashboard</a>
+                            </li>
+                            <li class="breadcrumb-item active">subscriptions</li>
+                        </ol>
+                        <div class="d-none d-md-inline-flex justify-center align-items-center">
+                            <!-- <a href="javascript: void(0);" class="btn btn-color-scheme btn-sm fs-11 fw-400 mr-l-40 pd-lr-10 mr-l-0-rtl mr-r-40-rtl hidden-xs hidden-sm ripple" target="_blank">Buy Now</a> -->
+                        </div>
+                    </div>
+                    <!-- /.page-title-right -->
+                </div>
+                <!-- /.page-title -->
+                <!-- =================================== -->
+                <!-- Different data widgets ============ -->
+                <!-- =================================== -->
+                <div class="row widget-bg">
+                    <div class="col-md-12">
+                        <h3>Users</h3>
+                    </div>
+                    <hr>
+                    
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="widget-list">
+                                <div class="row">
+                                    <div class="col-md-12 widget-holder">
+                                        <div class="widget-bg mt-5">
+                                            <div class="table-responsive">
+                                                <table class="table table-bordered">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>Status</th>
+                                                            <th>Name</th>
+                                                            <th>Email</th>
+                                                            <th>Registered On</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>Already Subscribed</td>
+                                                            <td>Maxwell Ifeanyi</td>
+                                                            <td>James@gmail.com</td>
+                                                            <td>2 years ago</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                            <td></td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                    <!-- /.widget-holder -->
+                                </div>
+                                <!-- /.row -->
+                            </div>
+                        </div>
+                    
+                    
+                </div>
+                <!-- /.widget-list -->
+                <hr>
+                <div class="widget-list row">
+                    <div class="widget-holder widget-full-height col-md-6">
+                        
+                        <!-- /.widget-bg -->
+                    </div>
+                    <div class="widget-holder widget-full-height col-md-6 text-right">
+                        <nav aria-label="Page navigation example">
+                            <ul class="pagination">
+                              <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Previous">
+                                  <span aria-hidden="true">&laquo;</span>
+                                  <span class="sr-only">Previous</span>
+                                </a>
+                              </li>
+                              <li class="page-item"><a class="page-link" href="#">1</a></li>
+                              <li class="page-item"><a class="page-link" href="#">2</a></li>
+                              <li class="page-item"><a class="page-link" href="#">3</a></li>
+                              <li class="page-item">
+                                <a class="page-link" href="#" aria-label="Next">
+                                  <span aria-hidden="true">&raquo;</span>
+                                  <span class="sr-only">Next</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </nav>
+                    </div>
+                    <!-- /.widget-holder -->
+                  
+                </div>
+                
+            
+            </main>
+            <!-- /.main-wrappper -->
+            <!-- RIGHT SIDEBAR -->
+        
+            <!-- CHAT PANEL -->
+        
+            <!-- /.chat-panel -->
+        </div>
+        <!-- /.content-wrapper -->
+        <!-- FOOTER -->
+        <footer class="footer"><span class="heading-font-family">2018 Scholar X. All Rights Reserved</span>
+        </footer>
+    </div>
+    <!--/ #wrapper -->
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.2/umd/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/metisMenu/2.7.0/metisMenu.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.perfect-scrollbar/0.7.0/js/perfect-scrollbar.jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/countup.js/1.9.2/countUp.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/switchery/0.8.2/switchery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-sparklines/2.1.2/jquery.sparkline.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-daterangepicker/2.1.25/daterangepicker.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mithril/1.1.1/mithril.js"></script>
+    <script src="assets/vendors/theme-widgets/widgets.js"></script>
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="http://localhost:35729/livereload.js"></script>
+</body>
+
+</html>
